@@ -1,0 +1,15 @@
+Boostrap -
+''''''
+Easy to use
+Responsive
+Mobil-first approach
+browser compatibilty
+
+
+Bootstrap -3
+----------------
+ 768px < Xs => mobile device
+  768px >= sm => tab,largemobiles
+   992px >= md => medium tab,small laptop
+   1024 >= lg => large screen
+    

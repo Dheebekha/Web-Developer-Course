@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../BootStrap/boot.css"/>    
+</head>
+    <body>
+        
+       
+       <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                  <li><a href="#">Link</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Link</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                     
+                    </ul>
+                  </li>
+                  <li><a href="#">
+                    <span class="glyphicon glyphicon-log-in"></span>
+                    Login
+                  </a></li>
+                  <li><a href="#">
+                    <span class="glyphicon glyphicon-log-out"></span>
+                    Signup
+                  </a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+
+          <!--panel-->
+          <div class="panel panel-default">
+            <div class="panel-head">Students</div>
+            <div class="panel-body">
+              <table class="table table-bordered table-hover">
+                <thead>
+                  <th>Roll No</th>
+                  <th>Name</th>
+                  <th>Class</th>
+                  <th>Action</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ananaya</td>
+                        <td>Bootstrap</td>
+                        <td>
+                            <button type="button" class="btn btn-success">
+                                <span class="glyphicon glyphicon-edit"></span>
+                            </button >
+                            <button type="button" class="btn btn-danger">
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </button>
+                           </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Arjun</td>
+                        <td>JS</td>
+                        <td>
+                        <button type="button" class="btn btn-success">
+                            <span class="glyphicon glyphicon-edit"></span>
+                        </button >
+                        <button type="button" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </button>
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Aparna</td>
+                        <td>CSS</td>
+                        <td>
+                            <button type="button" class="btn btn-success">
+                                <span class="glyphicon glyphicon-edit"></span>
+                            </button>
+                            <button type="button" class="btn btn-danger">
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </button>
+                           </td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          
+          <br/>
+          <br/>
+          <br/>
+
+          <!--rows-->
+          <div class="row">
+            <div class="col-6" style="background-color:green"> column1</div>
+            <div class="col-6" style="background-color:red"> column2</div>
+          </div>
+          <br/>
+          <br/>
+          <br/>
+          <div class="row">
+            <div class="col-4" style="background-color:green"> column3</div>
+            <div class="col-4" style="background-color:red"> column4</div>
+            <div class="col-4" style="background-color:pink"> column5</div>
+          </div>
+          <br/>
+          <br/>
+          <br/>
+          <div class="row">
+            <div class="col-md-1" style="background-color:green"> column1</div>
+            <div class="col-md-1" style="background-color:red"> column2</div>
+            <div class="col-md-1" style="background-color:pink"> column3</div>
+            <div class="col-md-1" style="background-color:green"> column4</div>
+            <div class="col-md-1" style="background-color:red"> column5</div>
+            <div class="col-md-1" style="background-color:pink"> column6</div>
+            <div class="col-md-1" style="background-color:green"> column7</div>
+            <div class="col-md-1" style="background-color:red"> column8</div>
+            <div class="col-md-1" style="background-color:pink"> column9</div>
+            <div class="col-md-1" style="background-color:green"> column10</div>
+            <div class="col-md-1" style="background-color:red"> column11</div>
+            <div class="col-md-1" style="background-color:pink"> column12</div>
+          </div>
+          
+          <br/>
+          <br/>
+          <br/>
+          <div class="row">
+            <div class="col-md-4" style="background-color:green"> column3</div>
+            <div class="col-md-4" style="background-color:red"> column4</div>
+            <div class="col-md-4" style="background-color:pink"> column5</div>
+            <div class="col-md-4" style="background-color:pink"> column5</div>
+          </div>
+
+          <br/>
+          <br/>
+          <br/>
+          <div class="row">
+            <div class="col-sm-4" style="background-color:green"> column3</div>
+            <div class="col-sm-4" style="background-color:red"> column4</div>
+            <div class="col-sm-4" style="background-color:pink"> column5</div>
+            <div class="col-sm-4" style="background-color:pink"> column5</div>
+          </div>
+          
+          <br/>
+          <br/>
+          <br/>
+          <div class="row">
+            <div class="col-xs-4" style="background-color:green"> column3</div>
+            <div class="col-xs-4" style="background-color:red"> column4</div>
+            
+          </div>
+          
+          <br/>
+          <br/>
+          <br/>
+          <div class="row">
+            <div id = "one" class="col-lg-2 col-md-3 col-sm-4 col-xs-6" > First</div>
+            <div id = "two" class="col-lg-2 col-md-3 col-sm-4 col-xs-6" > Second</div>
+            <div id = "three" class="col-lg-2 col-md-3 col-sm-4 col-xs-6" > Third</div>
+            <div id = "four" class="col-lg-2 col-md-3 col-sm-4 col-xs-6" > Fourth</div>
+            <div id = "five" class="col-lg-2 col-md-3 col-sm-4 col-xs-6" > Fifth</div>
+            
+          </div>
+
+       </div>
+    </body>
+    
+</html>
