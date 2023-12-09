@@ -8,3 +8,5 @@ section => home, feature, about, gallery, review, newsletter, contact
  unsplash - for images
 
  https://github.com/SangeethaShanmugm/ED-Web2
+
+ netlify - deploy git project
