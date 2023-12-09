@@ -1,0 +1,8 @@
+header
+
+section => home, feature, about, gallery, review, newsletter, contact
+
+
+ footer
+
+ unsplash - for images
